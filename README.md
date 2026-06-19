@@ -183,7 +183,7 @@ frozen-lake-qlearning/
 ├── visualize.py          # Bonus B – training graphs & value heatmap
 ├── requirements.txt
 ├── README.md
-├── report.md             # Technical report (source for report.pdf)
+├── report.pdf            # Technical report
 └── results/              # Saved Q-table, stats and graphs
 ```
 
@@ -191,18 +191,24 @@ frozen-lake-qlearning/
 
 ## Execution Instructions
 
-### 1. Install dependencies
+### 1. Clone the repository and enter the project directory
+```bash
+git clone https://github.com/letuscode293/dscd614-assignment1-.git
+cd dscd614-assignment1-
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Train the agent (also produces the Bonus B graphs)
+### 3. Train the agent (also produces the Bonus B graphs)
 ```bash
 python train.py                 # default: 20,000 episodes, saves results + graphs
 python train.py --episodes 30000 --alpha 0.2 --gamma 0.95
 ```
 
-### 3. Evaluate the trained agent
+### 4. Evaluate the trained agent
 ```bash
 python evaluate.py --episodes 100
 ```
