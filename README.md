@@ -224,5 +224,5 @@ Each script is self-contained and can also be imported as a module.
 
 - **Name:** Richard Gbamara
 - **Student ID:** 22427514
-- **GitHub Repository:** _add link after pushing_
-- **Report Link:** _add link to report.pdf_
+- **GitHub Repository:** https://github.com/letuscode293/dscd614-assignment1-
+- **Report Link:** https://github.com/letuscode293/dscd614-assignment1-/blob/richard/report.pdf
