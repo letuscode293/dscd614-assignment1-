@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Matplotlib cache
+.mplcache/
+
+# OS
+.DS_Store
+
+# Intermediate report artifacts
+report.typ
