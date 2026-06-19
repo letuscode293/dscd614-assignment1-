@@ -1,14 +1,5 @@
 # Frozen Lake from First Principles using Q-Learning
 
-DSCD 614 – Reinforcement Learning · Programming Assignment 1
-
-A complete, framework-free Reinforcement Learning solution to the 8×8 Frozen
-Lake problem. The environment, the Q-Learning agent, the training loop, policy
-extraction and evaluation are all implemented from scratch in pure Python +
-NumPy. **No Gymnasium, OpenAI Gym, Stable Baselines, or RLlib is used.**
-
----
-
 ## Introduction
 
 ### What is Reinforcement Learning?
@@ -217,12 +208,3 @@ python evaluate.py --episodes 100
 ```
 
 Each script is self-contained and can also be imported as a module.
-
----
-
-## Submission
-
-- **Name:** Richard Gbamara
-- **Student ID:** 22427514
-- **GitHub Repository:** https://github.com/letuscode293/dscd614-assignment1-
-- **Report Link:** https://github.com/letuscode293/dscd614-assignment1-/blob/richard/report.pdf
